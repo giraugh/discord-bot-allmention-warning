@@ -12,7 +12,4 @@ client.on('message', message => {
   }
 })
 
-require('dotenv').config()
-const token = process.env.BOT_TOKEN
-
-client.login(token)
+module.exports = client
