@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-allmention-warning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "http://github.com/retroverse/discord-bot-allmention-warning",
+  "author": "retroverse <ebreakey@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "dotenv": "^5.0.1"
+  },
+  "scripts": {
+    "start": "node bot.js"
+  }
+}
